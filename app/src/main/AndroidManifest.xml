@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.opening">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Crop"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".lily"></activity>
+        <activity android:name=".Kerria" />
+        <activity android:name=".Bougainvillea" />
+        <activity android:name=".Cacti" />
+        <activity android:name=".Amaryllis" />
+        <activity android:name=".Plily" />
+        <activity android:name=".Orchids" />
+        <activity android:name=".Fuchsia" />
+        <activity android:name=".Rose" />
+        <activity android:name=".Fruits" />
+        <activity android:name=".Banana" />
+        <activity android:name=".Grapes" />
+        <activity android:name=".Strawberry" />
+        <activity android:name=".Blueberry" />
+        <activity android:name=".Blackberry" />
+        <activity android:name=".Pomegranate" />
+        <activity android:name=".Sweetcorn" />
+        <activity android:name=".orange" />
+        <activity android:name=".apple" />
+        <activity android:name=".flowers" />
+        <activity
+            android:name=".Homepage"
+            android:label="@string/title_activity_homepage" />
+        <activity android:name=".Beans" />
+        <activity android:name=".Pumpkin" />
+        <activity android:name=".Potato" />
+        <activity android:name=".Onion" />
+        <activity android:name=".Cucumber" />
+        <activity android:name=".Brinjal" />
+        <activity android:name=".Carrot" />
+        <activity android:name=".Capcicum" />
+        <activity android:name=".Tomato" />
+        <activity android:name=".Vegg" />
+        <activity android:name=".Signup" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
